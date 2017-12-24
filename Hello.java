@@ -2,8 +2,12 @@ public class Hello{
 
   public static void main (args[] ag){
     
-    System.out.prinltn('Hello world');
+    System.out.prinltln('Hello world');
   
+  }
+  
+  public String getName(){
+    return this.toString();
   }
 
 }
