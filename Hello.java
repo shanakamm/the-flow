@@ -5,5 +5,9 @@ public class Hello{
     System.out.prinltln('Hello world');
   
   }
+  
+  public String getName(){
+    return this.toString();
+  }
 
 }
